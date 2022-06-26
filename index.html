@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="\css\style.css">
+    <link rel="stylesheet" href="\icon\fontawesome-free-6.1.1-web\css\all.css">
+    <link rel="icon" href="\img\download.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular-route.js"></script>
+
+</head>
+
+<body ng-app="myApp">
+
+    <div id="header">
+        <div class="header1">
+            <table>
+                <tr>
+                    <th>
+                        <div class="element-header1 logo-header1"><a href="#!"><img src="\img\images.png" alt=""
+                                    height="80px" style="padding-top:2px;"></a></div>
+                    </th>
+                    <th>
+                        <div class="search">
+                            <label for="search"><i style="margin-left:13px;margin-right:5px;"
+                                    class="fa-solid fa-magnifying-glass"></i></label>
+                            <input id="search" type="search" placeholder="Search">
+                        </div>
+                    </th>
+                    <th>
+                        <div class="element-header1">
+                            <div class="blue"><span class="icon-header1"><i class="fa-solid fa-mobile"></i></span>Call
+                                for we!!!</div>
+                            <div class="green">Phone: +84-XXX-XXX-XXXX</div>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="element-header1">
+
+                            <div class="blue"><span class="icon-header1"><i class="fa-solid fa-clock"></i></span>Work
+                                hour</div>
+                            <div class="green">6:00 AM- 22:00 PM Everyday </div>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="element-header1">
+
+                            <div class="blue"><span class="icon-header1"><i
+                                        class="fa-solid fa-location-dot"></i></span>Location</div>
+                            <div class="green">32 Trumpington Street, Cambridge , CB2 1QY, UK</div>
+                        </div>
+                    </th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="header2 flex">
+
+        <div class="element-header2"><a href="#!about">About Us</a></div>
+        <div class="element-header2">
+            <a href="#!department">Department<i id="arrow" class="fa-solid fa-sort-down"></i></a>
+                <ul class="list-header2">
+                    <li><a href="">Helpdesk</a> </li>
+                    <li><a href="">Registration</a> </li>
+                    <li><a href="">Doctor Schedule</a> </li>
+                    <li><a href="">Doctor Schedule</a> </li>
+                </ul>
+        </div>
+
+            
+
+            <div class="element-header2">
+                <a href="#!facility">Facility<i id="arrow" class="fa-solid fa-sort-down"></i></a>
+                    <ul class="list-header2">
+                        <li><a href="">Rooms</a> </li>
+                        <li><a href="">ICU</a> </li>
+                        <li><a href="">Medical Facility</a> </li>
+                        <li><a href="">Other Facility</a> </li>
+                    </ul>
+</div>
+                
+
+                <div class="element-header2">
+                    <a href="#!services">Services<i id="arrow" class="fa-solid fa-sort-down"></i></a>
+                        <ul class="list-header2">
+                            <li><a href="">Heneral Services</a> </li>
+                            <li><a href="">Health Checkup</a> </li>
+                            <li><a href="">Specialties</a> </li>
+                        </ul>
+</div>
+                    
+
+                    <div class="element-header2">
+                        <a href="#!centres">Centres<i id="arrow" class="fa-solid fa-sort-down"></i></a>
+                            <ul class="list-header2">
+                                <li><a href="">Diagnostic Centre</a> </li>
+                                <li><a href="">Cancer Centre</a> </li>
+                                <li><a href="">Heart Centre</a> </li>
+                                <li><a href="">Community Health Centre</a> </li>
+                            </ul>
+</div>
+                        
+
+                        <div class="element-header2"><a href="#!academic">Academic</a></div>
+                        <div class="element-header2"><a href="#!contact">Contact Us</a></div>
+                        <div class="element-header2"><a href="#!vacancies">Vacancies</a></div>
+                        <div class="element-header2"><a href="#!query">Query</a></div>
+                        <div class="element-header2"><a href="#!feedback">Feedback</a></div>
+                        <div class="element-header2"><a href="#!success">Success Stories</a></div>
+                    </div>
+
+                    <div ng-view></div>
+
+                    <script src="app.js"></script>
+                    <!--Start of Tawk.to Script-->
+                    <script type="text/javascript">
+                        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+                        (function () {
+                            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+                            s1.async = true;
+                            s1.src = 'https://embed.tawk.to/62b5723a7b967b1179964a82/1g6accdgp';
+                            s1.charset = 'UTF-8';
+                            s1.setAttribute('crossorigin', '*');
+                            s0.parentNode.insertBefore(s1, s0);
+                        })();
+                    </script>
+                    <!--End of Tawk.to Script-->
+</body>
+
+</html>
